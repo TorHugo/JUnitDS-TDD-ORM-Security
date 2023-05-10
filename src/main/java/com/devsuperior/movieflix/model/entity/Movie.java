@@ -16,6 +16,7 @@ public class Movie {
     private Long id;
     private String title;
     private String subTitle;
+    @Lob
     private String synopsis;
     private Integer year;
     private String imgUrl;
